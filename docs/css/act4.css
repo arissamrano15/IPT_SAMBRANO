@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center; /* Centers content inside the container */
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.main-heading {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Button Section */
+.button-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the buttons */
+}
+
+.circle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tg {
+    background-color: #0088cc;
+}
+
+.fb {
+    background-color: #3b5998;
+}
+
+/* Main Content Section */
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.left-section {
+    flex: 1;
+    text-align: center;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;    /* Centers the image vertically */
+    margin: 20px;
+}
+
+.image {
+    width: 100%; /* Adjust width based on your layout */
+    max-width: 300px; /* Prevent the image from exceeding 300px */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+}
